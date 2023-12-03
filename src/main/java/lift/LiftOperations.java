@@ -1,7 +1,7 @@
 package lift;
 
-public interface Lift {
+public interface LiftOperations {
 
-
+    public Lift getState();
 
 }

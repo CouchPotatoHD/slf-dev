@@ -1,5 +1,7 @@
-import kata.account.Account;
-import kata.account.IAccount;
+
+import account.Account;
+import account.IAccount;
+import account.NotEnoughMoneyException;
 import org.junit.jupiter.api.Test;
 
 public class AccountTest {
@@ -21,7 +23,7 @@ public class AccountTest {
 
     }
 
-    @Test
+    @Test()
     public void shouldThrowExceptionIfAmountIsBiggerThanBalance()
     {
 

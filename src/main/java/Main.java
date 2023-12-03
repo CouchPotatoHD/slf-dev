@@ -1,5 +1,3 @@
-package org.ismaylov;
-
 import account.Account;
 import account.IAccount;
 

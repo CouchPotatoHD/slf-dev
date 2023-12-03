@@ -1,4 +1,4 @@
-package kata.account;
+package account;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -31,10 +31,10 @@ public class Account implements IAccount {
     }
 
     @Override
-    public String printStatement() {
+    public void printStatement() {
 
         for (Operation operation : operations) {
-            System.out.println();
+
         }
 
     }
